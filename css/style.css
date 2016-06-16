@@ -1,0 +1,134 @@
+body {
+  background-color: #FFFFFF;
+   background-image: url('#'); 
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  height: 50px !important;
+}
+
+.section-heading,
+h2,
+h3, 
+ {
+  color: #1F1F1F;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 40px;
+}
+
+.aboutHeader {
+  text-indent: 7px;
+}
+
+h4 {
+  color:#1F1F1F;
+  line-height: 25px;
+}
+
+.pageOne {
+  background-image: url('#');
+  background-color:  #FFFFFF;
+  margin-top: 90px;
+  text-align: center;
+  color: #1F1F1F;
+   padding-top: 60px;
+  margin-bottom: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  
+}
+
+
+
+.pageTwo {
+  background-image: url('#');
+  padding-top: 30px;
+  margin-bottom: 30px;
+  color: #1F1F1F;
+  background-color:  #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  
+}
+.btn, .navbar {
+  background-color:  #FFFFFF;
+  border: 2px solid #E0E0E0;
+}
+.educationBox {
+  background-color:  #FFFFFF;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+  opacity: .88px;
+  
+}
+.eductaionImage {
+  float:left;
+  height: 223px;
+  width: 305px;
+  margin: 25px 20px 20px 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+li {
+  font-size: 15px;
+  
+}
+
+.profilePhoto {
+  border: 1px solid grey;
+  border-radius: 15px;
+  float: left;
+  margin-right: 30px;
+  opacity: 0.88;
+}
+
+.pageThree {
+  background-image: url('#');
+  background-color:  #FFFFFF;
+  padding-top: 60px;
+  color: #1F1F1F;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.project-item {
+  border: solid 1px  #FFFFFF;
+  color: #1F1F1F;
+  padding:30px;
+ 
+}
+
+.banner {
+  background-image: url('#');
+  margin-top: 1px;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 30px;
+  color: #1F1F1F;
+  background-color:  #FFFFFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+}
+
+footer {
+  background-color:  #FFFFFF;
+  padding: 50px;
+  
+}
+
+.copyright {
+  text-align: right;
+  color: #1F1F1F;
+}
