@@ -1,0 +1,76 @@
+<!-- Excised Projects section-->
+         <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-6 project-item">
+            <!-- Begin CodePen Embed -->
+            <p data-height="268" data-theme-id="0" data-slug-hash="vGGvgV" data-default-tab="result" data-user="alfonsotech" class="codepen ">See the Pen <a href="http://codepen.io/alfonsotech/pen/vGGvgV/">Continental Philosophy Quote Generator (w/external twitter button)</a> by alfonsotech (<a href="http://codepen.io/alfonsotech">@alfonsotech</a>) on <a> href="http://codepen.io ">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script><!-- End CodePen Embed-->
+            <div class="project-caption ">
+              <h4>Philosophy Quote Generator</h4>
+              <p id="small-text" class="text-muted">HTML, CSS, Bootstrap, Javascript, jQuery</p>
+            </div><!--/.project-caption -->
+          </div><!-- /.col-md-6 project-item -->
+
+          <!-- Project 2 -->
+          <div class="col-md-6 project-item">
+            <!-- Begin CodePen Embed-->
+            <p data-height="268 " data-theme-id="0" data-slug-hash="MKNaGx " data-default-tab="result " data-user="alfonsotech " class="codepen">See the Pen <a href="http://codepen.io/alfonsotech/pen/MKNaGx/">Javascript Calculator</a> by alfonsotech (<a href="http://codepen.io/alfonsotech">@alfonsotech</a>) on <a href="http://codepen.io ">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <div class="project-caption">
+              <h4>Javascript Calculator</h4>
+              <p id="small-text " class="text-muted">HTML, CSS, Bootstrap, Javascript</p>
+            </div><!--/.project-caption -->
+          </div><!-- /.col-md-6 project-item -->
+
+          <!-- Project 3 -->
+          <div class="col-md-6 project-item">
+            <p data-height="268" data-theme-id="0" data-slug-hash="QyexQG" data-default-tab="result" data-user="alfonsotech" class="codepen">See the Pen <a href="http://codepen.io/alfonsotech/pen/QyexQG/">Local Weather App</a> by alfonsotech (<a href="http://codepen.io/alfonsotech">@alfonsotech</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <!-- End CodePen Embed-->
+            <div class="project-caption ">
+              <h4>Local Weather App</h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Bootstrap, Javascript</p>
+            </div><!--/.project-caption -->
+          </div><!-- /.col-md-6 project-item -->
+
+          <!-- Project 4 -->
+          <div class="col-md-6 project-item">
+            <p data-height="268" data-theme-id="0" data-slug-hash="jqryNx" data-default-tab="result" data-user="alfonsotech " class="codepen ">See the Pen <a href="http://codepen.io/alfonsotech/pen/jqryNx/">jqryNx</a> by alfonsotech (<a href="http://codepen.io/alfonsotech ">@alfonsotech</a>) on <a href="http://codepen.io ">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+            <div class="project-caption">
+              <h4>Profile Card</h4>
+              <p id="small-text" class="text-muted">HTML, CSS, Bootstrap</p>
+            </div><!--/.project-caption -->
+           </div> <!-- /.col-md-6 project-item-->
+
+          <!-- Project 5 -->
+          <div class="col-md-6 project-item">
+            <p data-height="268" data-theme-id="0" data-slug-hash="wGvPaK" data-default-tab="result" data-user="alfonsotech" class="codepen">See the Pen <a href="http://codepen.io/alfonsotech/pen/wGvPaK/">Tic-Tac-Toe in Javascipt</a> by alfonsotech (<a href="http://codepen.io/alfonsotech">@alfonsotech</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <div class="project-caption">
+              <h4>Tic-Tac-Toe in Javascipt</h4>
+              <p id="small-text" class="text-muted">HTML, CSS, Bootstrap, Javascipt</p>
+            </div><!--/.project-caption -->
+          </div><!-- .col-md-6 project-item -->
+
+          <!-- Project 6 -->
+          <div class="col-md-6 project-item">
+            <p data-height="268" data-theme-id="0" data-slug-hash="MKNwwp" data-default-tab="result" data-user="alfonsotech" class="codepen">See the Pen <a href="http://codepen.io/alfonsotech/pen/MKNwwp/">Simone de Beauvoir Tribute Page</a> by alfonsotech (<a href="http://codepen.io/alfonsotech">@alfonsotech</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <div class="project-caption">
+              <h4>Simone de Beauvoir Tribute Page</h4>
+              <p id="small-text" class="text-muted">HTML, CSS, Bootstrap</p>
+            </div><!--/.project-caption -->  
+          </div><!-- /.col-md-6 project-item -->
+        
+        
+          <!-- Project 7 -->
+          <div class="col-md-6 project-item ">
+            <p data-height="268" data-theme-id="0" data-slug-hash="yOOZXv" data-default-tab="result" data-user="alfonsotech" class="codepen">See the Pen <a href="http://codepen.io/alfonsotech/pen/yOOZXv/">Top Twenty History of Philosophy Classics</a> by alfonsotech (<a href="http://codepen.io/alfonsotech">@alfonsotech</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+            <div class="project-caption ">
+              <h4>Top Twenty History of Philosophy Classics</h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Bootstrap, Javascipt</p>
+            </div><!--/.project-caption -->
+          </div><!-- .col-md-6 project-item --> 
