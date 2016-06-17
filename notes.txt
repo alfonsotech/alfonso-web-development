@@ -2,3 +2,4 @@ Outstanding Tasks
 html 23: <!--Display Happy day of the week or a philosophy quote -->
 I'd like for the projects section to be an iframe carousel
 I'd like for the "More Projects" section to be a link that opens an overlay with an iframe grid.
+-add caption to my image with my name

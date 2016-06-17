@@ -71,7 +71,9 @@ figcaption {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+.project-caption {
+  margin-bottom: 50px;
+}
 .iframe {
   width: 700px;
   height: 400px;
