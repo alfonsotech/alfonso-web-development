@@ -1,105 +1,136 @@
+/*MAIN CSS*/
 body {
-  background-color: #FFFFFF;
-   background-image: url('#'); 
+  /*background-color: #FFFFFF;
+  background-image: url('http://www.alfonsophotography.com/uploads/6/1/0/9/6109978/1135103.jpg');*/
+ /*background-image: url('../1135103b.jpg');*/
+  width: 100%;
+  min-width: 550px;
+  margin: 0px auto;
+  display: block;
+}
+/*wrapping*/
+.home_wrap,
+.about_wrap,
+.projects_wrap,
+.contact_wrap,
+.footer_wrap {
+  padding: 50px 20px 50px 20px; 
 }
 
-.navbar {
-  background-color: #FFFFFF;
-  height: 50px !important;
+.home_wrap {
+  background: url('https://images.unsplash.com/photo-1436505743955-a98c0d3eb1a8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=17a4db105181e5b7ac5f42ae7c436ece') no-repeat center center fixed;
+  background-size: cover;
+  background-position: 0px 60px;
+  height: 750px;
+  text-align: center;
 }
-section {
-  width: 700px;
-  height: auto;
+.contact_wrap {
+  text-align: center;
+  background-color: #FF5722;
+}
+.about_wrap,
+.footer_wrap {
+  background-image: url('../1135103b.jpg');
+  background-color: #FF5722;
+  opacity: .88;
+}
+/*data*/
+.home_data {
+  background-color: black;
+  opacity: .4;
+  padding:5px 0px 20px 0px;
+  border: 1px solid gray;
+  border-radius: 1px;
+  margin-top: 30px;
+}
+.projects_data {
+  width: 550px;
   margin: 0 auto;
   display: block;
-  padding-top: 60px;
+}
+
+
+/*TEXT*/
+h1 {
+  color: #ffffff;
 }
 .section-heading,
-h2,
+h2 {
+  color: #211244;
+}
+#aboutMain {
+  margin-top: 0px;
+}
 h3, 
  {
-  color: #1F1F1F;
+  color: #212121;
   font-family: 'Ubuntu', sans-serif;
   line-height: 40px;
+
 }
 h4 {
-  color:#1F1F1F;
+  color:#180D30;
   line-height: 25px;
-}
-.aboutHeader {
-  text-indent: 7px;
+  margin-bottom: 0px;
 }
 
-.home_data {
-  background-image: url('#');
-  background-color:  #FFFFFF;
-  text-align: center;
-  color: #1F1F1F;
-  
+/*NAVIGATION*/
+.navbar {
+  background-color: #FFFFFF;
+  height: 60px !important;
 }
-
-
-
-
 .btn, .navbar {
   background-color:  #FFFFFF;
-  border: 2px solid #E0E0E0;
+  border: 1px solid #D1C4E9;
+  font-size: 16px;
 }
 
-
-li {
-  font-size: 15px;
+/*ABOUT & AUTOCLICK*/
+.profilePhoto {
+  float:left;
+  margin-right: 30px;
+  opacity: .9;
   
 }
-
-.profilePhoto {
-  border: 1px solid gray;
-  border-radius: 3px;
-  float: left;
-  margin-right: 30px;
-  opacity: 0.88;
-}
-
 figcaption { 
     display: block;
+    text-align: center;
+    background-image: url('../1135103b.jpg');
+    color: #180D30;
 }
-.projects_wrapper {
-  background-image: url('#');
-  background-color:  #FFFFFF;
-  color: #1F1F1F;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
+/*PROJECTS*/
 .project-caption {
   margin-bottom: 50px;
 }
 .iframe {
-  width: 700px;
+  width: 75%;
   height: 400px;
-  border: 1px solid gray;
+  border: 1px solid #D1C4E9;
 }
 
-.banner {
-  background-image: url('#');
-  margin-top: 1px;
-  text-align: center;
-  padding-top: 60px;
-  margin-bottom: 30px;
-  color: #1F1F1F;
-  background-color:  #FFFFFF;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: auto;
-}
+/*LINKS*/
+a:link {
+  text-decoration: none;
+  color: #512DA8;
 
-footer {
-  background-color:  #FFFFFF;
-  padding: 50px;
-  
 }
-
+a:visited{
+  text-decoration: none;
+color: #673AB7;
+}
+a:hover {
+  text-decoration: none;
+color: #E040FB;
+}
+a:active {
+  text-decoration: none;
+color: #D1C4E9;
+}
+ /*FOOTER*/
+ footer {
+  background-color: #ffffff;
+}
 .copyright {
   float: right;
   color: #1F1F1F;

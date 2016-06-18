@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html >
+<html>
   <head>
     <meta charset="UTF-8">
     <title>Alfonso Web Development</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/style.css">  
   </head>
 
@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand topnav" href="#" target="_blank">Happy Thursday!</a><!--Display Happy day of the week or a philosophy quote -->
+          <a class="navbar-brand topnav" href="#" target="_blank"></a><!--Display Happy day of the week or a philosophy quote -->
         </div><!-- /.navbar-header-->
 
         <div class="collapse navbar-collapse">
@@ -41,7 +41,7 @@
     </div>
 
     <section class="home">
-      <div class="home_wrapper">
+      <div class="home_wrap">
       <div class="home_data">
         <h1>Alfonso Web Development</h1>
         <h4>HTML, CSS, Bootstrap, JavaScript, jQuery</h4>
@@ -71,30 +71,28 @@
     </div>
   
     <section class="about">
-      <div class="about_wrapper"></div>
-        <div class="about_data"></div>
+      <div class="about_wrap">
+        <div class="about_data">
             <div class="aboutHeader">
               <h2 class="section-heading">About Me</h2>
             </div><!--/.aboutHeader -->
             
-            <figure>
-              <img class="profilePhoto" src="http://www.alfonsophotography.com/uploads/6/1/0/9/6109978/1637507.jpg?218" alt="D. Rita Alfonso Profile Photo">
-              <!-- <figcaption>D. Rita Alfonso</figcaption>-->
+            <figure class="profilePhoto">
+              <img  src="http://www.alfonsophotography.com/uploads/6/1/0/9/6109978/1637507.jpg?218" alt="D. Rita Alfonso Profile Photo">
+              <figcaption>D. Rita Alfonso</figcaption>
             </figure>
 
-            <h2>I am a self-taught Front-End Web Developer with a background in Photography and Philosophy.</h2> 
+            <h2 id="aboutMain">I am a self-taught Front-End Web Developer with a background in Photography and Philosophy.</h2> 
             <br>
             <h4>For the past five years, I have been running my own real estate photography business, working for brokers with outfits like Zephyr Real Estate, Climb Real Estate, Coldwell Bankers, Alain Pinel, and more. I have also worked as an Airbnb photographer in the United States, Canada, Mexico, and the Dominican Republic. <a href="http://www.alfonsophotography.com" target="_blank">You can see my photography portfolio here.</a></h4>
-            <br>
+          
             <h4>Prior to starting my photography business, I taught Philosophy and Gender Studies at U.C. Berkeley, Grinnell College, and Stony Brook University. <a href="https://mega.nz/#!wRhxTCxJ!75xjkpn-syNr3OzuhgKcCYPO_kUaqlDhPlMqN5jcd64" target="_blank">My academic C.V. can be downloaded here.</a> </h4>
             
         </div><!--/.about_data-->
-      </div><!-- /.about_wrapper-->
-    </section><!-- /.pageTwo_about-->
+      </div><!-- /.about_wrap-->
+    </section><!-- /.about-->
 
-    <div class="container">
-      <hr>
-    </div>
+   
 
     <!-- PROJECTS -->
     <!--Projects anchor-->
@@ -103,128 +101,77 @@
     </div>
 
     <section class="projects">
-      <div class="projects_wrapper">
+      <div class="projects_wrap">
         <div class="projects_data">
-            <h2 class="section-heading">Recent Projects</h2><br>
-            <!-- -->
-            <iframe name= "contPhilTube" src="https://alfonsotech.github.io/Continental-Phil-Tube/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Continental Philosophy Tube</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-            <br>
-            <!-- -->
-            <iframe name= "philQuiz" src="https://alfonsotech.github.io/philosophy-quiz-app/"  class="iframe"></iframe>
-            <div class="project-caption">
-              <h4><a href="#" target="_blank">Continental Philosophy Quiz</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-             </div> <!--/.project-caption -->
-              <br>
-            <!-- -->
-            <iframe name= "contactsApp" src="https://alfonsotech.github.io/ContactsApp/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Contacts App</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-            <br>
-
-            <iframe name= "GoGetItShoppingApp" src="https://alfonsotech.github.io/Go-Get-It-Shopping-App/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Go Get It! The Shopping App</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-            <br>
-
-            <iframe name= "HotColdGame" src="https://alfonsotech.github.io/hot-cold-game/"  class="iframe"></iframe>
-            <div class="project-caption ">
+          <h2 class="section-heading">Recent Projects</h2><br>
+            
+          <!-- Philosophy Quiz -->
+          <iframe name= "philQuiz" src="https://alfonsotech.github.io/philosophy-quiz-app/"  class="iframe"></iframe>
+          <div class="project-caption">
+            <h4><a href="#" target="_blank">Continental Philosophy Quiz</a></h4>
+            <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+          </div> <!--/.project-caption -->
+          <br>
+          <!-- Simple Contacts App -->
+          <iframe name= "contactsApp" src="https://alfonsotech.github.io/ContactsApp/"  class="iframe"></iframe>
+          <div class="project-caption ">
+            <h4><a href="#" target="_blank">Simple Contacts App</a></h4>
+            <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+          </div><!--/.project-caption -->
+          <br>
+          <!-- Go Get It! The Shopping App -->
+          <iframe name= "GoGetItShoppingApp" src="https://alfonsotech.github.io/Go-Get-It-Shopping-App/"  class="iframe"></iframe>
+          <div class="project-caption ">
+            <h4><a href="#" target="_blank">Go Get It! The Shopping List App</a></h4>
+            <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+          </div><!--/.project-caption -->
+          <br>
+          <!-- Hot || Cold Game -->
+          <iframe name= "HotColdGame" src="https://alfonsotech.github.io/hot-cold-game/"  class="iframe"></iframe>
+          <div class="project-caption ">
               <h4><a href="#" target="_blank">Hot || Cold Game</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "javascriptCalculator" src="https://alfonsotech.github.io/js-calculator_fcc-version/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Javascript Calculator</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "ContPhilQuoteGen" src="http://codepen.io/alfonsotech/full/vGGvgV/" class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Continental Philosophy Quote Generator</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "localWeatherApp" src="http://codepen.io/alfonsotech/full/QyexQG/" class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Local Weather App</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "profileCard" src="http://codepen.io/alfonsotech/full/jqryNx/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Profile Card</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "ticTacToe" src="http://codepen.io/alfonsotech/full/wGvPaK/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Tic Tac Toe</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "sdBeauvoirTributePage" src="http://codepen.io/alfonsotech/full/MKNwwp/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Simone de Beauvoir Tribute Page</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-
-            <br>
-
-            <iframe name= "top20PhilClassics" src="http://codepen.io/alfonsotech/full/yOOZXv/"  class="iframe"></iframe>
-            <div class="project-caption ">
-              <h4><a href="#" target="_blank">Top 20 History of Philosophy Classics</a></h4>
-              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
-            </div><!--/.project-caption -->
-              
-      </div><!-- /.projects_data --> 
+              <p id="small-text " class="text-muted ">Javascipt, jQuery</p>
+          </div><!--/.project-caption -->
+          <br>
+          <!-- Javascript Calculator -->
+          <iframe name= "javascriptCalculator" src="https://alfonsotech.github.io/js-calculator_fcc-version/"  class="iframe"></iframe>
+          <div class="project-caption ">
+            <h4><a href="#" target="_blank">Javascript Calculator</a></h4>
+            <p id="small-text " class="text-muted ">HTML, CSS, Bootstrap, Javascipt, jQuery</p>
+          </div><!--/.project-caption -->
+          <br>
+          <!-- Continental Phil Quote Gen -->
+          <iframe name= "ContPhilQuoteGen" src="http://codepen.io/alfonsotech/full/vGGvgV/" class="iframe"></iframe>
+          <div class="project-caption ">
+            <h4><a href="#" target="_blank">Continental Philosophy Quote Generator</a></h4>
+            <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+          </div><!--/.project-caption -->
+       
+        </div><!-- /.projects_data --> 
      </div><!-- /.projects_wrapper -->    
     </section><!-- /.pageThree Projects -->
 
   
 
     <!--CONTACT SECTION -->
-    <hr>
-    <div class="banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3>Contact: <a href="mailto:alfonsowebdev@nym.hush.com">alfonsowebdev@nym.hush.com</a></h3>
-            <ul class="list-inline banner-social-buttons">
-              <li>
-                <a href="https://twitter.com/alfonsowebdev" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-              </li>
-              <li>
-                <a href="https://github.com/alfonsotech" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
-              </li>
-              <li>
-               <a href="http://freecodecamp.com/alfonsotech" target="_blank" class="btn btn-default btn-sm "><i class="fa fa-fire fa-fw"></i> <span class="network-name">FreeCodeCamp</span></a>
-              </li>
-            </ul><!--/.ist-inline banner-social-buttons -->
-          </div><!--/.col-lg-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </div><!-- /.banner -->
+    <section class="contact">
+      <div class="contact_wrap">
+        <div class="contact_data">
+          <h3>Contact: <a href="mailto:alfonsowebdev@nym.hush.com">alfonsowebdev@nym.hush.com</a></h3>
+          <ul class="list-inline banner-social-buttons">
+            <li>
+              <a href="https://twitter.com/alfonsowebdev" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+            </li>
+            <li>
+              <a href="https://github.com/alfonsotech" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a>
+            </li>
+            <li>
+              <a href="http://freecodecamp.com/alfonsotech" target="_blank" class="btn btn-default btn-sm "><i class="fa fa-fire fa-fw"></i> <span class="network-name">FreeCodeCamp</span></a>
+            </li>
+          </ul><!--/.ist-inline banner-social-buttons -->
+        </div><!--/.contact_data -->
+        </div><!-- /.contact_wrap-->
+      </section><!-- /contact section-->
     
     <!--Contact anchor-->
     <div>
@@ -234,9 +181,8 @@
 
     <!--footer start-->
     <footer>
-      <div class="container bottomMenu">
-      <div class="row">
-        <div class="col-lg-12">
+      <div class="footer_wrap">
+        <div class="footer_data">
           <ul class="list-inline">
             <li><a href="#">Home</a></li>
             <li class="footer-menu-divider">&sdot;</li>
@@ -248,14 +194,13 @@
           </ul>
           <p class="copyright text-muted small"><br>Web Design by <a href="https://twitter.com/alfonsowebdev">@AlfonsoWebDev</a></p>  
           <br>
-        </div> <!--/.col-lg-12-->
-      </div> <!--/.row-->
-    </div><!--/.container bottomMenu-->
+        </div> <!--/.footer_data-->
+      </div><!--/.footer_wrap-->
     </footer><!--footer end-->
 
     <!-- Scripts-->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script> 
 
   </body>

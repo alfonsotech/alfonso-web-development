@@ -1,3 +1,54 @@
+MORE EXCISED PROJECTS
+<!-- -->
+            <iframe name= "contPhilTube" src="https://alfonsotech.github.io/Continental-Phil-Tube/"  class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Continental Philosophy Tube</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+            </div><!--/.project-caption -->
+            <br>
+
+<br>
+
+            <iframe name= "localWeatherApp" src="http://codepen.io/alfonsotech/full/QyexQG/" class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Local Weather App</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+            </div><!--/.project-caption -->
+
+            <br>
+
+            <iframe name= "profileCard" src="http://codepen.io/alfonsotech/full/jqryNx/"  class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Profile Card</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+            </div><!--/.project-caption -->
+
+            <br>
+
+            <iframe name= "ticTacToe" src="http://codepen.io/alfonsotech/full/wGvPaK/"  class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Tic Tac Toe</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+            </div><!--/.project-caption -->
+
+            <br>
+
+            <iframe name= "sdBeauvoirTributePage" src="http://codepen.io/alfonsotech/full/MKNwwp/"  class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Simone de Beauvoir Tribute Page</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+            </div><!--/.project-caption -->
+
+            <br>
+
+            <iframe name= "top20PhilClassics" src="http://codepen.io/alfonsotech/full/yOOZXv/"  class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Top 20 History of Philosophy Classics</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
+            </div><!--/.project-caption -->
+
+
+
 <!-- Excised Projects section-->
          <div class="row">
           <!-- Project 1 -->
