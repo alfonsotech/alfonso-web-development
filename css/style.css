@@ -24,7 +24,7 @@ body {
 .contact_wrap {
   text-align: center;
   background-color: #FF5722;
-  border-top: 2px solid #512DA8;
+  border-top: 1px solid #512DA8;
 }
 .about_wrap,
 .footer_wrap {
@@ -86,6 +86,12 @@ h4 {
   border: 1px solid #D1C4E9;
   font-size: 16px;
 }
+.navbar-collapse a,
+.navbar-collapse a:hover {
+  background-color: white !important;
+  opacity: .88;
+ 
+}
 
 /*ABOUT & AUTOCLICK*/
 .profilePhoto {
@@ -133,8 +139,11 @@ color: #D1C4E9;
  footer {
   background-color: #ffffff;
 }
+.footer_wrap {
+  text-align: center;
+}
 .copyright {
-  float: right;
+  text-align: center;
   color: #1F1F1F;
   margin-right: 30px;
 }

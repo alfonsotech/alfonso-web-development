@@ -2,4 +2,9 @@ Outstanding Tasks
 html 23: <!--Display Happy day of the week or a philosophy quote -->
 I'd like for the projects section to be an iframe carousel
 I'd like for the "More Projects" section to be a link that opens an overlay with an iframe grid.
--add caption to my image with my name
+- add description to projects
+-link to project online from title of project
+
+/- cont phil quiz needs some css work; change background and top alignment of quesiton without using padding, or otherwise fix bleed through
+
+Use window.scrollTo(0,0); to move to top of page.

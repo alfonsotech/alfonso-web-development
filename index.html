@@ -14,7 +14,7 @@
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
       <div class="container topnav">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -24,7 +24,7 @@
         </div><!-- /.navbar-header-->
 
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right pull-right">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -35,12 +35,7 @@
     </nav><!-- NAV BAR END-->
 
     <!-- HOME -->
-    <!--Home anchor-->
-    <div>
-      <a id="home"></a>
-    </div>
-
-    <section class="home">
+    <section id="home"> <!--Home anchor-->
       <div class="home_wrap">
       <div class="home_data">
         <h1>Alfonso Web Development</h1>
@@ -65,12 +60,7 @@
     </section><!--/.pageOne top-->
 
     <!-- ABOUT -->
-    <!--About anchor-->
-    <div>
-      <a id="about"></a>
-    </div>
-  
-    <section class="about">
+    <section id="about"><!--About anchor-->
       <div class="about_wrap">
         <div class="about_data">
             <div class="aboutHeader">
@@ -95,15 +85,18 @@
    
 
     <!-- PROJECTS -->
-    <!--Projects anchor-->
-    <div>
-      <a id="projects"></a>
-    </div>
-
-    <section class="projects">
+    <section id="projects"><!--Projects anchor-->
       <div class="projects_wrap">
         <div class="projects_data">
           <h2 class="section-heading">Recent Projects</h2><br>
+
+          <!-- Continental Philosophy Tube -->
+          <iframe name= "contPhilTube" src="https://alfonsotech.github.io/Continental-Phil-Tube/"  class="iframe"></iframe>
+            <div class="project-caption ">
+              <h4><a href="#" target="_blank">Continental Philosophy Tube</a></h4>
+              <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery, JSON</p>
+            </div><!--/.project-caption -->
+            <br>
             
           <!-- Philosophy Quiz -->
          <iframe name= "philQuiz" src="https://alfonsotech.github.io/philosophy-quiz-app/"  class="iframe"></iframe>
@@ -112,6 +105,7 @@
             <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
           </div> <!--/.project-caption -->
           <br>
+
           <!-- Simple Contacts App -->
           <iframe name= "contactsApp" src="https://alfonsotech.github.io/ContactsApp/"  class="iframe"></iframe>
           <div class="project-caption ">
@@ -119,6 +113,7 @@
             <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
           </div><!--/.project-caption -->
           <br>
+
           <!-- Go Get It! The Shopping App -->
           <iframe name= "GoGetItShoppingApp" src="https://alfonsotech.github.io/Go-Get-It-Shopping-App/"  class="iframe"></iframe>
           <div class="project-caption ">
@@ -126,6 +121,7 @@
             <p id="small-text " class="text-muted ">HTML, CSS, Javascipt, jQuery</p>
           </div><!--/.project-caption -->
           <br>
+
           <!-- Hot || Cold Game -->
           <iframe name= "HotColdGame" src="https://alfonsotech.github.io/hot-cold-game/"  class="iframe"></iframe>
           <div class="project-caption ">
@@ -133,6 +129,7 @@
               <p id="small-text " class="text-muted ">Javascipt, jQuery</p>
           </div><!--/.project-caption -->
           <br>
+
           <!-- Javascript Calculator -->
           <iframe name= "javascriptCalculator" src="https://alfonsotech.github.io/js-calculator_fcc-version/"  class="iframe"></iframe>
           <div class="project-caption ">
@@ -140,6 +137,7 @@
             <p id="small-text " class="text-muted ">HTML, CSS, Bootstrap, Javascipt, jQuery</p>
           </div><!--/.project-caption -->
           <br>
+
           <!-- Continental Phil Quote Gen -->
           <iframe name= "ContPhilQuoteGen" src="http://codepen.io/alfonsotech/full/vGGvgV/" class="iframe"></iframe>
           <div class="project-caption ">
@@ -154,7 +152,7 @@
   
 
     <!--CONTACT SECTION -->
-    <section class="contact">
+    <section id="contact">  <!--Contact anchor-->
       <div class="contact_wrap">
         <div class="contact_data">
           <h3>Contact: <a href="mailto:alfonsowebdev@nym.hush.com">alfonsowebdev@nym.hush.com</a></h3>
@@ -173,10 +171,8 @@
         </div><!-- /.contact_wrap-->
       </section><!-- /contact section-->
     
-    <!--Contact anchor-->
-    <div>
-    <a id="contact"></a>
-    </div>
+  
+   
  
 
     <!--footer start-->
@@ -192,7 +188,7 @@
             <li class="footer-menu-divider">&sdot;</li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <p class="copyright text-muted small"><br>Web Design by <a href="https://twitter.com/alfonsowebdev">@AlfonsoWebDev</a></p>  
+          <p class="copyright text-muted small"><br>Web Design by <a href="https://twitter.com/alfonsowebdev">@AlfonsoWebDev</a>.Copyright © 2016 by Alfonso Web Development. Background image by Zack Spear for <a target="_blank" href="https://unsplash.com/photos/Oaqk7qqNh_chttps://unsplash.com/photos/Oaqk7qqNh_c">Unsplash.com</a>.</p>  
           <br>
         </div> <!--/.footer_data-->
       </div><!--/.footer_wrap-->
