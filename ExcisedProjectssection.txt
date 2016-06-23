@@ -1,5 +1,14 @@
 MORE EXCISED PROJECTS
+
+
+<!-- Continental Phil Quote Gen -->
+          <iframe name= "ContPhilQuoteGen" src="http://codepen.io/alfonsotech/full/vGGvgV/" class="iframe"></iframe>
+          <div class="project-caption ">
+            <h4><a href="http://codepen.io/alfonsotech/full/vGGvgV/" target="_blank">Continental Philosophy Quote Generator</a></h4>
+            <p id="small-text " class="text-muted ">HTML, CSS, Bootstrap, Javascipt, jQuery</p>
+          </div><!--/.project-caption -->
 <!-- -->
+          
             <iframe name= "contPhilTube" src="https://alfonsotech.github.io/Continental-Phil-Tube/"  class="iframe"></iframe>
             <div class="project-caption ">
               <h4><a href="#" target="_blank">Continental Philosophy Tube</a></h4>
