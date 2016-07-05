@@ -115,7 +115,7 @@ figcaption {
 .project-caption,
 #small-text {
   width: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   
   display: inline-block;
   float: left;
